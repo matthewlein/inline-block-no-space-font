@@ -1,0 +1,81 @@
+@import 'normalize';
+@import 'csswizardry-grids';
+
+body {
+    font-family: serif;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.whitespace-ignore {
+    font-family: empty;
+    text-rendering: optimizeSpeed;
+}
+.whitespace-normal {
+    font-family: serif;
+}
+
+// --------------------------------------------------------------------- //
+// List
+// --------------------------------------------------------------------- //
+
+nav ul {
+    font-family: empty;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-family: serif;
+    display: inline-block;
+    background-color: #ccc;
+    vertical-align: top;
+    padding: 0 1px; // Firefox fix
+}
+
+
+// --------------------------------------------------------------------- //
+// Grid
+// --------------------------------------------------------------------- //
+
+.grid {
+    font-family: empty;
+}
+.grid__item {
+    font-family: serif;
+    background-color: #ccc;
+}
+
+// --------------------------------------------------------------------- //
+// Vertical aligned
+// --------------------------------------------------------------------- //
+
+.block {
+  text-align: center;
+  background: #c0c0c0;
+  border: #a0a0a0 solid 1px;
+  margin: 20px;
+  font-family: empty;
+}
+
+.block:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  background: #808080; width: 5px;
+}
+
+.centered {
+    font-family: serif;
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  padding: 10px 15px;
+  border: #a0a0a0 solid 1px;
+  background: #f5f5f5;
+}

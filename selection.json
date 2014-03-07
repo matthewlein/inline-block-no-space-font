@@ -1,0 +1,53 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [],
+				"width": 0,
+				"grid": 0,
+				"tags": [
+					"blank"
+				]
+			},
+			"properties": {
+				"order": 1,
+				"id": 0,
+				"prevSize": 32,
+				"code": 32,
+				"name": "blank",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 0
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "space-empty"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "space-empty",
+				"majorVersion": 1,
+				"minorVersion": 0
+			},
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"embed": true,
+			"showMetrics": false,
+			"showMetadata": false,
+			"showVersion": false
+		},
+		"imagePref": {},
+		"historySize": 100,
+		"showCodes": true
+	}
+}
