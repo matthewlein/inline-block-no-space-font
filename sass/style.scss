@@ -1,4 +1,4 @@
-@import 'normalize';
+// @import 'normalize';
 @import 'csswizardry-grids';
 
 body {
@@ -23,10 +23,12 @@ img {
 // List
 // --------------------------------------------------------------------- //
 
+/* centered nav */
 nav ul {
     font-family: empty;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 nav li {
